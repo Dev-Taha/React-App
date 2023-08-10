@@ -1,24 +1,46 @@
 import IMAGES from "../../Images/image";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/zoom";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Zoom, Navigation, Pagination } from "swiper/modules";
 
-function Swiper() {
+function SwiperSide() {
   return (
     <>
-      <div className="swiper mySwiper">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <img src={IMAGES.girl_light} />
+      <Swiper
+        style={{
+          "--swiper-navigation-color": "#fff",
+          "--swiper-pagination-color": "#fff",
+        }}
+        zoom={true}
+        navigation={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Zoom, Navigation, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className="swiper-zoom-container">
+            <img className="img-edit" src={IMAGES.girl_light} />
           </div>
-          <div className="swiper-slide">
-            <img src={IMAGES.man_dark} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-zoom-container">
+            <img className="img-edit" src={IMAGES.man_dark} />
           </div>
-          <div className="swiper-slide">
-            <img src={IMAGES.glass_dark} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-zoom-container">
+            <img className="img-edit" src={IMAGES.glass_dark} />
           </div>
-        </div>
-        <div className="swiper-pagination"></div>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </>
   );
 }
 
-export default Swiper;
+export default SwiperSide;

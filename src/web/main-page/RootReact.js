@@ -1,6 +1,9 @@
 import IMAGES from "../../Images/image";
 
 function RootReact() {
+  let toggleTextHandler = () => {
+    require("../../js/main");
+  };
   return (
     <>
       <section className="root-react">
@@ -8,8 +11,7 @@ function RootReact() {
           <div className="left-ele">
             <div className="rectangle" id="rect">
               <button className="card-btn">
-                {/* onclick="toggleText()" */}
-
+                onclick={toggleTextHandler()}
                 <img className="rot" src={IMAGES.pluse} />
               </button>
               <h2>Amet minim mollit non deserunt ullamco </h2>

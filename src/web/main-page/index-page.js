@@ -1,4 +1,3 @@
-import IMAGES from "../../Images/image";
 import "../../css/style.css";
 import ALL from "./ALL";
 import Asked from "./Asked";
@@ -11,7 +10,7 @@ import Projects from "./Projects";
 import RootReact from "./RootReact";
 import Service from "./Service";
 import StrategyRoot from "./StrategyRoot";
-import Swiper from "./Swiper";
+import SwiperSide from "./Swiper";
 import ImgProjects from "./img-projects";
 import ImgRoot from "./img-root";
 import Nav from "./nav";
@@ -30,7 +29,7 @@ function indexPage() {
       <StrategyRoot />
       <ALL />
       <Happy />
-      <Swiper />
+      <SwiperSide />
       <Asked />
       <RootReact />
       <Facts />
