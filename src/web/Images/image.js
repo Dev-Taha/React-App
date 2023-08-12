@@ -30,7 +30,7 @@ const IMAGES = {
   girl_light: require("../img/girl_light.png"),
   man_dark: require("../img/man_dark.png"),
   glass_dark: require("../img/glass_dark.png"),
-  pluse: require("../img/plus.png")
+  pluse: require("../img/plus.png"),
 };
 
 export default IMAGES;
