@@ -16,7 +16,7 @@ import ImgRoot from "./img-root";
 import Nav from "./nav";
 import Strategy from "./strategy";
 
-function indexPage() {
+function indexPage(props) {
   return (
     <>
       <Header />
@@ -35,6 +35,7 @@ function indexPage() {
       <Facts />
       <ImageFact />
       <LastPage />
+      {props.children}
     </>
   );
 }
