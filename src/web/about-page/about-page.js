@@ -1,3 +1,4 @@
+import "../../css/style-about.css";
 import Header from "../main-page/Header";
 import LastPage from "../main-page/LastPage";
 import AllSide from "./all-side";
