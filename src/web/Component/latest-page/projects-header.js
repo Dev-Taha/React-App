@@ -1,7 +1,7 @@
 function ProjectsHeader() {
   return (
     <>
-      <div class="projects">
+      <div className="projects">
         <ul>
           <li>All</li>
           <li>Digital Marketing</li>

@@ -12,11 +12,11 @@ function Head() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LayOutHeader />}>
-          <Route path="home" element={indexPage} />
-          <Route path="about" element={AboutPage} />
-          <Route path="services" element={ServicePage} />
-          <Route path="contact-us" element={ContactPage} />
-          <Route path="latest-news" element={LatestPage} />
+          <Route path="home" element={<indexPage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="services" element={<ServicePage />} />
+          <Route path="contact-us" element={<ContactPage />} />
+          <Route path="latest-news" element={<LatestPage />} />
           {/* <Route
               path="*"
               element={
@@ -33,5 +33,5 @@ function Head() {
 
 export default Head;
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Head />);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<Head />);

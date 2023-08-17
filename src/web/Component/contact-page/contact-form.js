@@ -1,14 +1,14 @@
 function ContactForm() {
   return (
     <>
-      <div class="contact-form">
+      <div className="contact-form">
         <form method="post" action="contact-us.html">
-          <div class="first-last">
-            <input class="first" type="text" placeholder="First Name" />
-            <input class="last" type="text" placeholder="Last Name" />
+          <div className="first-last">
+            <input className="first" type="text" placeholder="First Name" />
+            <input className="last" type="text" placeholder="Last Name" />
           </div>
 
-          <div class="select-email">
+          <div className="select-email">
             <input type="email" placeholder="Email" />
             <select>
               <option disabled selected value="">
@@ -24,8 +24,8 @@ function ContactForm() {
               </optgroup>
             </select>
           </div>
-          <textarea class="txt-area">Message</textarea>
-          <button class="send-btn">Send Message</button>
+          <textarea className="txt-area">Message</textarea>
+          <button className="send-btn">Send Message</button>
         </form>
       </div>
     </>

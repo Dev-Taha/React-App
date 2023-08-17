@@ -25,17 +25,29 @@ function SwiperSide() {
       >
         <SwiperSlide>
           <div className="swiper-zoom-container">
-            <img className="img-edit" src={IMAGES.girl_light} />
+            <img
+              className="img-edit"
+              src={IMAGES.girl_light}
+              style={{ width: "50%" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-zoom-container">
-            <img className="img-edit" src={IMAGES.man_dark} />
+            <img
+              className="img-edit"
+              src={IMAGES.man_dark}
+              style={{ width: "50%" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-zoom-container">
-            <img className="img-edit" src={IMAGES.glass_dark} />
+            <img
+              className="img-edit"
+              src={IMAGES.glass_dark}
+              style={{ width: "50%" }}
+            />
           </div>
         </SwiperSlide>
       </Swiper>

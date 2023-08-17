@@ -31,6 +31,11 @@ const IMAGES = {
   man_dark: require("../img/man_dark.png"),
   glass_dark: require("../img/glass_dark.png"),
   pluse: require("../img/plus.png"),
+  Frame: require("../img/Frame.png"),
+  girlwithhear: require("../img/girlwithhear.png"),
+  gentaleman: require("../img/gentaleman.png"),
+  girlpersone: require("../img/girl-persone.png"),
+  heyman: require("../img/hey-man.png"),
 };
 
 export default IMAGES;

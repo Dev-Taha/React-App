@@ -1,7 +1,7 @@
 function Map() {
   return (
     <>
-      <section class="map">
+      <section className="map">
         <img src="../img/mao.png" />
       </section>
     </>

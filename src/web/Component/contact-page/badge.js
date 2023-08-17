@@ -1,7 +1,7 @@
 function Badge() {
   return (
     <>
-      <div class="data">
+      <div className="data">
         <p>Badge</p>
       </div>
     </>

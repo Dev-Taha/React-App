@@ -1,13 +1,15 @@
+import IMAGES from "../../Images/image";
+
 function RootFrameSide() {
   return (
     <>
-      <div class="root-frame">
-        <div class="frame-img">
-          <img src="../img/Frame.png" width="550" height="394" />
+      <div className="root-frame">
+        <div className="frame-img">
+          <img src={IMAGES.Frame} width="550" height="394" />
         </div>
-        <div class="frame-para">
+        <div className="frame-para">
           <h1>About The Company</h1>
-          <div class="color4"></div>
+          <div className="color4"></div>
           <h3>
             Secure <span>IT Solution</span> For A More Secure Environment
           </h3>

@@ -5,9 +5,9 @@ function LayOutHeader() {
   return (
     <>
       <header>
-        <div class="root">
+        <div className="root">
           <img src={IMAGES.logo} width="72" height="52" />
-          <div class="element1">
+          <div className="element1">
             <ul>
               <li>
                 <Link to="/">Home</Link>

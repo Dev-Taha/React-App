@@ -1,10 +1,10 @@
 function RootImg() {
   return (
     <>
-      <div class="img-root">
-        <div class="ele-img1">
+      <div className="img-root">
+        <div className="ele-img1">
           <img src="../img/micro.png" />
-          <p class="para">Digital Marketing</p>
+          <p className="para">Digital Marketing</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -16,32 +16,32 @@ function RootImg() {
             <li>Website Hosting</li>
             <li>UI Design</li>
           </ul>
-          <a class="href" href="google.com">
+          <a className="href" href="google.com">
             Learn more{" "}
           </a>
         </div>
 
-        <div class="ele-img2">
+        <div className="ele-img2">
           <img src="../img/screen.png" />
-          <p class="para">Website Development & Design</p>
+          <p className="para">Website Development & Design</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam
           </p>
           <ul>
-            <li class="color">Word Press Development</li>
+            <li className="color">Word Press Development</li>
             <li>E-commerce</li>
             <li>Website Hosting</li>
           </ul>
-          <a class="href" href="google.com">
+          <a className="href" href="google.com">
             Learn more{" "}
           </a>
         </div>
 
-        <div class="ele-img3">
+        <div className="ele-img3">
           <img src="../img/man.png" width="232" height="178" />
-          <p class="para">Software</p>
+          <p className="para">Software</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -51,14 +51,14 @@ function RootImg() {
             <li>Setting Up CRM</li>
             <li>Software recommendation for a specific business type</li>
           </ul>
-          <a href="google.com" class="href">
+          <a href="google.com" className="href">
             Learn more 
           </a>
         </div>
 
-        <div class="ele-img4">
+        <div className="ele-img4">
           <img src="../img/manage.png" width="232" height="178" />
-          <p class="para">Graphic Design & Branding</p>
+          <p className="para">Graphic Design & Branding</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -71,7 +71,7 @@ function RootImg() {
             <li>Social Media Designs</li>
             <li>Printable</li>
           </ul>
-          <a href="google.com" class="href">
+          <a href="google.com" className="href">
             Learn more
           </a>
         </div>

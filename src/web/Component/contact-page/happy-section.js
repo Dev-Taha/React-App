@@ -1,7 +1,7 @@
 function HappySection() {
   return (
     <>
-      <div class="happy">
+      <div className="happy">
         <h1>Drop Us a Line</h1>
         <p>Fill Out The Contact Form And We Will Get Back To You Shortly.</p>
       </div>
